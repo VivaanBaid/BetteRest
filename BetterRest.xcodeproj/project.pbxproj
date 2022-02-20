@@ -11,6 +11,7 @@
 		72C3ED0027C1B48A00A357E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C3ECFF27C1B48A00A357E5 /* ContentView.swift */; };
 		72C3ED0227C1B48C00A357E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C3ED0127C1B48C00A357E5 /* Assets.xcassets */; };
 		72C3ED0527C1B48C00A357E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C3ED0427C1B48C00A357E5 /* Preview Assets.xcassets */; };
+		72C3ED0E27C1BAAD00A357E5 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 72C3ED0D27C1BAAD00A357E5 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		72C3ECFF27C1B48A00A357E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		72C3ED0127C1B48C00A357E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72C3ED0427C1B48C00A357E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72C3ED0D27C1BAAD00A357E5 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		72C3ECFC27C1B48A00A357E5 /* BetterRest */ = {
 			isa = PBXGroup;
 			children = (
+				72C3ED0D27C1BAAD00A357E5 /* SleepCalculator.mlmodel */,
 				72C3ECFD27C1B48A00A357E5 /* BetterRestApp.swift */,
 				72C3ECFF27C1B48A00A357E5 /* ContentView.swift */,
 				72C3ED0127C1B48C00A357E5 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			files = (
 				72C3ED0027C1B48A00A357E5 /* ContentView.swift in Sources */,
 				72C3ECFE27C1B48A00A357E5 /* BetterRestApp.swift in Sources */,
+				72C3ED0E27C1BAAD00A357E5 /* SleepCalculator.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
